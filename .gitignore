@@ -6,6 +6,7 @@ node_modules/
 
 test.js
 run.sh
+run_*.sh
 
 *.0x/
 

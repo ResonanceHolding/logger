@@ -13,7 +13,8 @@ Log level argument is case insensitive. Options are:
 - all
 
 ```javascript
-'use strict'
+'use strict';
+
 const { Log, Err, Info, Debug, Init } = require('logger');
 
 Init('all'); // optional method

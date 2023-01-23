@@ -1,6 +1,6 @@
 {
   "name": "logger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -18,5 +18,9 @@
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-unicorn": "^43.0.2",
     "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "@sentry/node": "^7.32.0",
+    "@sentry/tracing": "^7.32.0"
   }
 }

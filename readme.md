@@ -38,6 +38,8 @@ All constructor params are optional, such as init method call
 - `logLevel` - log level described above
 - `sentryConfig` - config for Sentry
   - `dsn` - dsn for Sentry project
+  - `environment` - environment for Sentry ('prod', 'test', 'dev', 'local', if 'local' provided - Sentry will be turned off)
 - `throttleParams`:
   - `maxLength` - max length of the map with last errors
   - `delay` - delay between displaying same error
+- `tags` - object with tags, where tag will be object key, and value - its value
